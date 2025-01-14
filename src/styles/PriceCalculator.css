@@ -1,0 +1,33 @@
+.price-calculator-container {
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .text-left, .text-right { 
+    color: #4a5568; /* Equivalent to text-gray-700 */ 
+}
+  .price-calculator-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--text-color-dark);
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--primary-color);
+    height: 5px;
+    border-radius: 5px;
+  }
+  
+  .price-display {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-color-dark);
+    margin-top: 10px;
+  }
+  .flex-justify-between{
+    display: flex; 
+    justify-content: space-between;
+  }
